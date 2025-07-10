@@ -1,0 +1,15 @@
+
+{% extends "base.html" %}
+{% block content %}
+<h2>Tienda de Camperas</h2>
+<p>Nuestra colección exclusiva de camperas de diseño.</p>
+<div class="gallery">
+    <img src="{{ url_for('static', filename='images/campera1.jpg') }}">
+    <img src="{{ url_for('static', filename='images/campera2.jpg') }}">
+    <img src="{{ url_for('static', filename='images/campera3.jpg') }}">
+    <img src="{{ url_for('static', filename='images/campera4.jpg') }}">
+    <img src="{{ url_for('static', filename='images/campera5.jpg') }}">
+    <img src="{{ url_for('static', filename='images/campera6.jpg') }}">
+    <img src="{{ url_for('static', filename='images/campera7.jpg') }}">
+</div>
+{% endblock %}

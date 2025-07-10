@@ -1,0 +1,14 @@
+
+{% extends "base.html" %}
+{% block content %}
+<h2>Portfolio</h2>
+<p>Algunos de nuestros trabajos recientes en diseño de vidrieras y styling de moda:</p>
+<div class="gallery">
+    <img src="{{ url_for('static', filename='images/trabajo1.png') }}">
+    <img src="{{ url_for('static', filename='images/trabajo2.png') }}">
+    <img src="{{ url_for('static', filename='images/trabajo3.png') }}">
+    <img src="{{ url_for('static', filename='images/trabajo4.png') }}">
+    <img src="{{ url_for('static', filename='images/trabajo5.png') }}">
+    <img src="{{ url_for('static', filename='images/trabajo6.png') }}">
+</div>
+{% endblock %}
